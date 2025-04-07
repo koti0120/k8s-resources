@@ -8,7 +8,6 @@ containers:
   image: nginx
   ports:
   - containerPort: 80
-containers:
 - name: alma
   image: "almalinux:9"
   command: ["sleep","2000"]
